@@ -1,3 +1,8 @@
+"""
+Code borrowed from Stephane Writel EuroPython 2016 talk - Exploring our Python Interpreter 
+Video: https://www.youtube.com/watch?v=R0lDKw0FQSI
+"""
+
 import tokenize
 import dis
 import ast
