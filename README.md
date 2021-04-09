@@ -1,6 +1,6 @@
-# Python Internals: PyLadies IWD Lightning Talk
+# Python Internals: A Python Lightning Talk
 
-This code is for the `What happens when you type print(‘Hello PyLadies’)? A look at Python internals!` for [PyLadies International Women's Day 2021](https://iwd.pyladies.com).
+This code is for the `What happens when you type print(‘Hello ____’)? A look at Python internals!`.
 
 ## Install Python from source
 
@@ -30,11 +30,11 @@ Now we'll see the `__ltrace__ = None` to see the Python bytecode in the terminal
 
 ```
 >>> __ltrace__ = None
->>> print('Hello PyLadies')
+>>> print('Hello <Name>')
 0: 101, 0
 push <built-in function print>
 2: 100, 0
-push 'Hello PyLadies'
+push 'Hello <Name>'
 4: 131, 1
 Hello PyLadies
 ext_pop 'Hello PyLadies'
